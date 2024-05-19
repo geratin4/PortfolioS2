@@ -6,6 +6,8 @@
     <title>Interactive Media Products </title>
     <link rel="shortcut icon" href="/assets/images/icon2.png" type="image/png">
     <link rel="stylesheet" href="IMP.css">
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
+    <script src="/learing outcomes/learningO.js" defer ></script>
 </head>
 <body>
 
@@ -245,33 +247,7 @@
             </div>
 
         </div>
-
-
     </section>
-
-
-
-
-
-    <script>
-        
-//smooth scrolll 
-const lenis = new Lenis()
-
-lenis.on('scroll', (e) => {
-  console.log(e)
-})
-
-function raf(time) {
-  lenis.raf(time)
-  requestAnimationFrame(raf)
-}
-
-requestAnimationFrame(raf)
-
-
-    </script>
-
 
 </body>
 </html>
