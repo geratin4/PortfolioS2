@@ -1,0 +1,282 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url(/assets/fonts/Merriweather/);
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* header with nav bar */
+header {
+
+    width: 100%;
+    height: 40px;
+    margin: 0;
+
+}
+
+/* nav-bar */
+
+.nav-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    font-family: montserrat ;
+}
+
+/* "Logo" to go back  */
+
+.brand-name {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-family: montserrat ;
+}
+
+
+.nav-bar h1 {
+
+    list-style: none;
+    font-size: xx-large;
+    font-family:montserrat ;
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+    margin-left: 3px;
+
+}
+
+.nav-bar ul {
+
+    
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-bar li{
+
+
+    margin-right: 15px;
+    font-family:montserrat ;
+    
+}
+
+.nav-bar a {
+
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:montserrat;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+/* Tittle "Learning Outcome */
+.tittle {
+
+ height: 550px;
+ width: 75%;
+}
+
+.tittle img {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+
+P{
+    font-size: .85em;
+    line-height: 1.4em;
+    margin-bottom: 0;
+
+}
+
+section {
+    height: 380vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 150px;
+
+}
+
+/* WINDOWS BAR AND TEXT*/
+.blue-bar{
+    background-color: rgb(54, 100, 181);
+    background-image: linear-gradient(to right, rgba(56, 87, 171, 1) 60% ,rgba(75, 124, 191, 1));
+    width: 450px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.blue-bar ul {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5.5px;
+    column-gap: 6px ;
+
+}
+
+.blue-bar li{
+    list-style: none;
+    
+}
+
+.blue-bar img {
+
+    height: 15px;
+    width: 15px;
+}
+
+
+
+h3{
+    font-family: montserrat;
+    color: aliceblue;
+    font-size: .75rem;
+    margin-left: 10px;
+}
+
+h4{
+    font-family: montserrat;
+    font-size: 1.2rem;
+}
+
+
+#LO_img {
+
+    width: 230px;
+    height: 170px;
+    bottom: 20%;
+}
+
+#LO_img img {
+    height: 100%;
+    width: 100%;
+}
+
+.fill-container{
+
+    width: 450px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* row-gap: 10px; */
+}
+
+
+
+/* WINDOW 1 */
+
+.window1 {
+
+    height: 300px;
+    width: 450px;
+    background-color: rgb(165, 165, 221);
+    position: relative;
+    right: 350px;
+    border: 10px solid;
+    border-image-source:url(./webBoarder2.png);
+    border-image-slice: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+/* WINDOW 2 */
+
+
+.window2{
+
+    height: 300px;
+    width: 450px;
+    background-color: red;
+    position: relative;
+    left: 350px;
+    border: 10px solid;
+    border-image-source:url(./webBoarder2.png);
+    border-image-slice: 40;
+    
+}
+
+/* WINDOW 3 */
+
+.window3{
+
+    height: 300px;
+    width: 450px;
+    background-color: rgb(0, 255, 26);
+    position: relative;
+    right: 350px;
+    border: 10px solid;
+    border-image-source:url(./webBoarder2.png);
+    border-image-slice: 40;
+    
+}
+
+/* WINDOW 4 */
+
+.window4{
+
+    height: 300px;
+    width: 450px;
+    background-color: rgb(129, 17, 177);
+    position: relative;
+    left: 350px;
+    border: 10px solid;
+    border-image-source:url(./webBoarder2.png);
+    border-image-slice: 40;
+    
+}
+
+/* WINDOW 5 */
+
+.window5{
+
+    height: 300px;
+    width: 450px;
+    background-color: rgb(239, 248, 164);
+    position: relative;
+    right: 350px;
+    border: 10px solid;
+    border-image-source:url(./webBoarder2.png);
+    border-image-slice: 40;
+}
+
+

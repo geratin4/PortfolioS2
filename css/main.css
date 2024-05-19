@@ -1,0 +1,137 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat\ \(1\)/);
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url(/assets/fonts/Merriweather/);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #80C6FA;
+    align-items: center;
+    text-align: center;
+   
+}
+
+section {
+    height:110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* overflow: hidden; */
+    flex-direction: column;
+
+}
+
+h1 {
+
+    font-family: montserrat;
+    font-size: 10rem;
+   
+}
+
+
+a{
+    font-family: montserrat;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: rgb(223, 21, 21); 
+}
+
+a:active {
+    color: red; 
+}
+
+
+
+.info {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    bottom: 20%;
+}
+
+
+
+
+
+
+/* cat section  */
+
+#cat {
+    height: 110vh;
+
+}
+
+/* cat image  */
+
+.container {
+    position: relative;
+    height: 80vh; 
+    bottom: 60%;
+  }
+
+  .box1 {
+    /* background-color: skyblue; */
+    z-index: 2; /* Ensures box1 starts on top */
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    top: 60%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    background-image: url(/assets/images/cathead.png);
+  }
+
+  .box1 img {
+
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box2 {
+    /* background-color: lightcoral; */
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    top: 80%;
+    left: -16px;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/assets/images/cathead.png);
+  }
+  
+  .black {
+
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 25%;
+    transform: scale(1);
+    transform-origin: center; /* Zoom from the center */
+  }
+  

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development and Vision Control </title>
+    <link rel="shortcut icon" href="/assets/images/icon2.png" type="image/png">
+    <link rel="stylesheet" href="DC.css">
+</head>
+<body>
+
+    <!-- nav bar with navegation to go back, and about me page -->
+    <header>
+        <nav class="nav-bar">
+            <a class="brand-name" href="/index.html">GARZON</a>
+        
+            <ul>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/learing outcomes/learnigO.html">Learning Outcomes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="project " >
+
+    <!-- intro -->
+    <div class="intro">
+
+            <h1> Development and Vision Control</h1>
+            <p>In this semester, I am focusing on enhancing my front-end development skills through various projects and workshops.</p>
+
+     </div>
+
+      <!--BRANDING PROJECT START  -->
+
+     <!-- container, to lay out -->
+        <div class="container one">
+            <!-- left side of the container -->
+            <div class="left-box">
+                <!-- window with PDF -->
+                <div class="window floating ">
+                    <div class="blue-bar">
+                        <h3>"Branding Project PDF"</h3>
+                        
+                        <!-- List to put images as the buttons -->
+                        <ul>
+                            <li><img src="/assets/images/smallerBtn.png" alt="hide screen"></li>    
+                            <li><img src="/assets/images/bigBtn.png" alt="bigger screen"></li>
+                            <li><img src="/assets/images/closeBtn.png" alt="close screen"></li>
+                        </ul>
+                        
+                    </div>
+                    <!-- the learning outcome name  -->
+                    <div class="fill-container">
+                        
+                    </div>
+                </div>
+
+                <!-- hand image -->
+                <div class="hand">
+                    <img src="/learing outcomes/arm550.png" alt="arm">
+                </div>
+
+            </div>
+
+            <!-- right side of the container -->
+            <div class="right-box">
+                <!-- text wrapper  -->
+                <div>
+                    <!-- name of the project -->
+                    <h2>Workshops </h2>
+                    <p>Once a week, I participate in workshops on front-end development. We work on assignments in class to reinforce our learning.
+                    </p>
+                </div> 
+            </div>
+
+        </div>
+
+        <div class="container two">
+            
+            
+            <div class="left-box2" >
+
+                <div class="text-box1">
+                    <h3> My Contributions</h3>
+                    <P>I Inspected websites to identify and understand unfamiliar HTML elements and Researched the functionality of these elements for an assignment provided by the teacher. I creates a square Pokémon using only html and css and with media query on css i made it change colour depending on the screen size. I explored different methods to display data with javascript  such as: window.alert(), console.log(), and innerHTML().And Understood the concepts of scope with var, let, and const, and the basics of functions. </P>
+
+                    <p>I modified a tic-tac-to game with javascript to display the cells of the winner player green and to make a gif appear when someone wins. I also made a sound board that when you press a key it plays a sound. And i Also made a Pokémon game using Pokemon API and with the help of chatGPT.</p>
+                </div>
+             
+            </div>
+
+            <div class="right-box2" >
+
+                <div class="img-container">
+                    <img src="/assets/images/pokemonBattle.png" alt="screenshot of pokemon game">
+                </div>
+                <h4>Pokemon game using API, where i added my own twist to it with the help of chatGPT</h4>
+
+                
+                <a href="https://codepen.io/Brayan-Garzon/pen/abrdQyW" target="_blank">
+                    <h5>Codepen → </h5>
+                </a>
+                
+            </div>
+
+        </div>
+
+        <div class="container three ">
+            
+            
+            <div class="left-box2" >
+
+                <div class="text-box1">
+
+                <h3>Key Learnings</h3>
+                <p>I learned how to display or change data with javascript using.window.alert(), console.log(), and innerHTML()., I learned the deference between var, let and const. I learned what APIs are and what you can do with them. </p>
+
+                <h3>Outcome</h3>
+                <p>I believe it has been going alright, i am learning more about javascript and all the things you can do with it and it makes me want to learn more so i can become a developer </p>
+               
+
+                </div>
+             
+            </div>
+
+            <div class="right-box2" id="two ">
+
+                <div class="img-container3">
+                    <img src="/assets/images/tictactoe.png" alt="screenshot of Tic-Tac-Toe game">
+                </div>
+                <h4>Tic-Tac-To game assignment </h4>
+
+                <a href="https://codepen.io/Brayan-Garzon/pen/GRaowyw" target="_blank">
+                    <h5>Codepen → </h5>
+                </a>
+                
+            </div>
+
+        </div>
+        
+
+
+
+
+    </section>
+
+
+
+
+
+    <script>
+        
+//smooth scrolll 
+const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
+
+
+    </script>
+
+
+</body>
+</html>
