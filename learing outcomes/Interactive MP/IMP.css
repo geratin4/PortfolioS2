@@ -185,6 +185,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -223,7 +224,7 @@ section {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 @keyframes floating {
@@ -232,7 +233,7 @@ section {
     }
 
     50% {
-        transform: translate(0, 15px);
+        transform: translate(0, 10px);
     }
 
     100% {
@@ -253,6 +254,18 @@ section {
     border-image-slice: 40;
     top: 10%;
 
+}
+
+.window1 {
+
+    width: 280px;
+    height: 210px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border: 10px solid;
+    border-image-source: url(/learing\ outcomes/webBoarder2.png);
+    border-image-slice: 40;
+    top: 30%;
 
 }
 
@@ -304,9 +317,40 @@ section {
     height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-end;
+    align-items:center;
     background-image: url(/assets/images/homescreen2.png);
+    
+}
+
+.fill-container p {
+
+    color: black;
+    
+}
+
+button {
+
+    font-size: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.btn-Breda{
+
+    top: 65px;
+
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
 
 
@@ -319,7 +363,7 @@ section {
     /* background-color: pink; */
     position: relative;
     right: 15%;
-    top: 15%;
+    top: 20%;
 }
 
 .hand img {
