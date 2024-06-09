@@ -24,6 +24,30 @@ header {
 
 }
 
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+
 /* nav-bar */
 
 .nav-bar{
@@ -90,7 +114,7 @@ header {
 /* Tittle "Learning Outcome */
 .tittle {
 
- height: 550px;
+ height: 450px;
  width: 75%;
 }
 
@@ -117,13 +141,25 @@ P{
 }
 
 section {
-    height: 380vh;
+    height: 390vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 150px;
 
+}
+
+
+/* Arrow  */
+
+.arrow {
+
+    height: 150px;
+    width: 150px;
+    position: relative;
+    /* top: 50px; */
+    
 }
 
 /* WINDOWS BAR AND TEXT*/
@@ -215,6 +251,7 @@ h4{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* top: 20px; */
     
 
 }
@@ -277,6 +314,7 @@ h4{
     border: 10px solid;
     border-image-source:url(./webBoarder2.png);
     border-image-slice: 40;
+
 }
 
 
