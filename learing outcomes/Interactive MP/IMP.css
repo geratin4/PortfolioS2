@@ -528,3 +528,90 @@ section {
     align-items: center;
     background-image: url(/assets/images/bredalogo2.png);
 }
+
+
+
+
+/* section 3 */
+/* Development!!! */
+
+.ContainerEaster{
+
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+}
+
+
+
+.rightbox2Easter {
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.EasterIMG1 {
+
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EasterIMG1 img
+
+/* FIXXX IN PS */
+.img-container img {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.right-box2 p {
+
+    font-size: 0.8rem;
+    padding: 2%;
+    font-family: merriweather;
+    text-align: center;
+
+}
+
+.EasterIMG2{
+
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.EasterIMG2 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.fill-containerMarkting {
+
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/bredalogo2.png);
+}
