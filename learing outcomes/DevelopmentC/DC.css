@@ -306,11 +306,20 @@ section {
     height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-image: url(/assets/images/workshop.png);
 }
 
+/* BUTTON */
+button {
+
+    font-size: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+
+}
 
 /* hand img */
 
@@ -472,7 +481,18 @@ section {
     height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-image: url(/assets/images/bredalogo2.png);
+}
+
+
+
+button:disabled {
+    pointer-events: none;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(0);
 }
