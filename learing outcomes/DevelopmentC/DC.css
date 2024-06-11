@@ -191,6 +191,7 @@ section {
 
 
 
+
 /* containers for layout  */
 
 .container {
@@ -453,3 +454,25 @@ section {
   
 }
 
+.img-container3 img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+/*  Easter Eggs project */
+
+.fill-containerEaster {
+
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/bredalogo2.png);
+}

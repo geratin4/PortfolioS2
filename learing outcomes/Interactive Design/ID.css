@@ -304,10 +304,36 @@ section {
     height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-image: url(/assets/images/homescreen2.png);
 }
+
+/* BUTTON */
+button {
+
+    font-size: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.btn-Breda {
+
+    top: 65px;
+
+}
+
+button:disabled {
+    pointer-events: none;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
 
 
 /* hand img */
