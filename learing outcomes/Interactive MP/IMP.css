@@ -404,6 +404,7 @@ button {
 
 }
 
+
 button:disabled {
     pointer-events: none;
 }
@@ -773,6 +774,58 @@ button:active {
 }
 
 .PortfolioIMG2 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Project X  */
+
+
+.ProjectXIMG1 {
+
+    height: 350px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.ProjectXIMG1 img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.fill-containerProjectX {
+
+    width: 280px;
+    height: 180px;
+    display: flex;
+    background-color: rgba(10, 7, 28, 1);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/websiteX.png);
+}
+
+
+.ProjectXIMG2 {
+
+    height: 350px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectXIMG2 img {
 
     width: 100%;
     height: 100%;

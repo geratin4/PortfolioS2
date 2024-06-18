@@ -570,3 +570,25 @@ button:active {
     box-shadow: none;
     transform: translateY(0);
 }
+
+
+
+/* project X */
+
+.fill-containerProjectX {
+
+    width: 280px;
+    height: 180px;
+    display: flex;
+    background-color: rgba(10, 7, 28, 1);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/websiteX.png);
+}
+
+.ProjectX {
+
+    top: 60px;
+}
