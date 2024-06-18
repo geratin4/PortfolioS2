@@ -1,14 +1,33 @@
-window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY; // Gets the number of pixels the document is currently scrolled along the vertical axis
-    const maxOffset = 150; // Maximum offset in pixels
-  
-    // Calculate the offset based on the scroll position. You can adjust the formula to change the effect.
-    let offset = Math.min(scrollY, maxOffset);
-  
-    // Apply the offset to the boxes
-    document.querySelector('.box1').style.transform = `translate(-50%, calc(-50% - ${offset}px))`;
-    document.querySelector('.box2').style.transform = `translate(-50%, calc(-50% + ${offset}px))`;
-  });
-  
+console.clear();
 
+gsap.registerPlugin(ScrollTrigger);
+
+window.addEventListener("load", () => {
+  gsap
+    .timeline({
+      scrollTrigger: {
+        trigger: ".wrapper",
+        start: "top top",
+        end: "+=150%",
+        pin: true,
+        scrub: true,
+      }
+    })
+    .to("img", {
+      scale: 15, // Increase this value to zoom in more
+      z: 350,
+      transformOrigin: "center 77% ", // Adjust this value to shift the focal point downwards
+      
+      ease: "power1.inOut"
+    })
+    .to(
+      ".section.hero",
+      {
+        scale: 1.7, // Increase this value to zoom in more
+        transformOrigin: "center 60%", // Adjust this value to shift the focal point downwards
+        ease: "power1.inOut"
+      },
+      "<"
+    );
+});
 

@@ -36,6 +36,11 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: rgba(109, 201, 240, 1);;
+}
+
+
 /* fonts*/
 
 h1 {
